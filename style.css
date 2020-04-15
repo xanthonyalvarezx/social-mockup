@@ -1,19 +1,26 @@
 * {
     box-sizing: border-box;
+  font-family: Roboto;
 
 
 }
+
+
 
 body {
     background-color: rgb(196, 195, 195);
 }
 
+ 
 header {
 
     width: 850px;
     height: 300px;
     margin: 0 auto;
     background-color: #215e9c;
+    background-image: url("./assets/fancycat3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 ul,
@@ -111,8 +118,11 @@ nav {
     left: 10px;
     top: -75px;
     z-index: 2;
-    background-color: #215e9c;
+    background-image:url("./assets/fancycat2.jpg");
+    background-repeat: no-repeat;
     border-radius: 1.75%;
+    background-size: cover;
+    
 }
 
 .headerbuttons {
@@ -219,13 +229,13 @@ p.envelope {
     left: 27.4%;
     width: 512px;
     height: 600px;
-    margin-left:none;
+    margin-left: none;
     border: 1px solid lightgray;
 }
 
 
-.bx1txt{
-    padding-top:5px;
+.bx1txt {
+    padding-top: 5px;
     border-top: 2px solid lightgray;
 }
 
@@ -236,35 +246,44 @@ p.envelope {
     position: relative;
     top: 10px;
     border-top: 2px solid lightgray;
-
+    
 }
-.bx2photo{
+
+.bx2photo {
 
     border: 10px solid white;
     border-radius: 2%;
 }
 
-.bx2btns{
-    background-color:white;
+.bx2btns {
+    background-color: white;
     position: relative;
-    bottom:6px;
+    bottom: 6px;
     height: 30px;
     border-top: 1px solid lightgray;
     background-color: whitesmoke;
+    font-variant: small-caps;
     
+
 }
-.btnbar2{
+
+.btnbar2 {
     border: none;
     background-color: whitesmoke;
+    float: left;
+    word-spacing: .75em;
     
-    
+
+
 
 }
-.bx2main{
-    margin: 0 2px 5px 2px ;
-    
-    
 
+.bx2main {
+    margin: 0 2px 5px 2px;
+}
 
-    
+.world{
+    font-size: 12px;
+    padding-right:5px ;
+    color:red;
 }
