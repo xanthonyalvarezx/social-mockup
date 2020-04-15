@@ -10,7 +10,14 @@
 body {
     background-color: rgb(196, 195, 195);
 }
-
+@media (max-width: 1100px){
+    body{
+        position: sticky;
+        display: block;
+        float: left;
+        background-color: green;
+    }
+}
  
 header {
 
@@ -21,6 +28,16 @@ header {
     background-image: url("./assets/fancycat3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+@media (max-width:900px){
+    header{
+   
+       
+        position: sticky;
+        
+        
+    }
 }
 
 ul,
@@ -221,7 +238,13 @@ p.envelope {
     height: 200px;
     margin-right: 10px
 }
-
+@media (max-width:1100px){
+    .box1 {
+        position:static;
+        
+        
+    }
+}
 
 .box2 {
     position: relative;
@@ -231,6 +254,13 @@ p.envelope {
     height: 600px;
     margin-left: none;
     border: 1px solid lightgray;
+}
+@media (max-width:1100px){
+    .box2 {
+        position:static;
+       
+        
+    }
 }
 
 
@@ -253,7 +283,17 @@ p.envelope {
 
     border: 10px solid white;
     border-radius: 2%;
+    float: left;
 }
+
+.bx2photo span{
+    position: relative;
+    bottom: 25px;
+    left: 5px ;
+    font-size: 16px;
+    color: #215e9c;
+
+} 
 
 .bx2btns {
     background-color: white;
