@@ -12,7 +12,7 @@ body {
 }
 @media (max-width: 1100px){
     body{
-        position: sticky;
+        position: static;
         display: block;
         float: left;
         background-color: green;
@@ -34,7 +34,7 @@ header {
     header{
    
        
-        position: sticky;
+        position: static;
         margin: 0 auto;
         
         
