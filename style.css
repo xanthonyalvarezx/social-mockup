@@ -35,6 +35,7 @@ header {
    
        
         position: sticky;
+        margin: 0 auto;
         
         
     }
@@ -97,12 +98,16 @@ li {
 .links,
 .timeline {
     border-right: 1px solid lightgrey;
-
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+    
+
+
 
 .links:hover,
 .timeline:hover {
-    border-bottom: 2px solid #215e9c;
+    border-bottom: 3px solid #215e9c;
 }
 
 a.navlinks {
@@ -233,7 +238,7 @@ p.envelope {
 .box1 {
     position: relative;
     border: 1px solid lightgray;
-    left: 27.5%;
+    left: 20%;
     width: 328px;
     height: 200px;
     margin-right: 10px
@@ -249,7 +254,7 @@ p.envelope {
 .box2 {
     position: relative;
     top: 100;
-    left: 27.4%;
+    left: 20%;
     width: 512px;
     height: 600px;
     margin-left: none;
